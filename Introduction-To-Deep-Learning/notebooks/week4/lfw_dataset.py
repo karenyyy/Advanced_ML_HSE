@@ -5,7 +5,6 @@ import pandas as pd
 import tarfile
 import tqdm
 
-
 ATTRS_NAME = "/home/karen/Downloads/data/lfw_attributes.txt"  # http://www.cs.columbia.edu/CAVE/databases/pubfig/download/lfw_attributes.txt
 IMAGES_NAME = "/home/karen/Downloads/data/lfw-deepfunneled.tgz"  # http://vis-www.cs.umass.edu/lfw/lfw-deepfunneled.tgz
 RAW_IMAGES_NAME = "/home/karen/Downloads/data/lfw.tgz"  # http://vis-www.cs.umass.edu/lfw/lfw.tgz
