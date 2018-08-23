@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/Adversarial-task.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj/data/MNIST_data/t10k-images-idx3-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj/data/MNIST_data/t10k-labels-idx1-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj/data/MNIST_data/train-images-idx3-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj/data/MNIST_data/train-labels-idx1-ubyte.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/octave-workspace" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" afterPath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/.ipynb_checkpoints/Autoencoders-task-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/.ipynb_checkpoints/Autoencoders-task-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/Autoencoders-task.ipynb" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/Autoencoders-task.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/lfw_dataset.py" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/lfw_dataset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/week4 Notes.ipynb" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/week4 Notes.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Denoising-Autoencoder-using-Tensorflow.zip" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,12 +75,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week4 Notes.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="week4 Notes.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <first_editor relative-caret-position="360">
+                <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Autoencoders-task.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="278">
+                <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,9 +114,11 @@
     <findStrings>
       <find>submi</find>
       <find>1.png</find>
+      <find>../../</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week2/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -408,7 +411,7 @@
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41614583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="319" y="325" width="1140" height="663" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,16 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/datagenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="135" column="63" lean-forward="false" selection-start-line="135" selection-start-column="63" selection-end-line="135" selection-end-column="63" />
-          <folding>
-            <element signature="e#74#97#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/finetune alexnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2646">
@@ -821,8 +814,19 @@
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <first_editor relative-caret-position="360">
+            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="278">
+            <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
