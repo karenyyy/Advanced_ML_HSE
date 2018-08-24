@@ -205,7 +205,7 @@ sess.close()
 
 
 
-![png](output_7_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_1.png)
 
 
 
@@ -216,7 +216,7 @@ sess.close()
 
 
 
-![png](output_7_4.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_4.png)
 
 
 
@@ -227,7 +227,7 @@ sess.close()
 
 
 
-![png](output_7_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_7.png)
 
 
 
@@ -238,7 +238,7 @@ sess.close()
 
 
 
-![png](output_7_10.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_10.png)
 
 
 
@@ -249,7 +249,7 @@ sess.close()
 
 
 
-![png](output_7_13.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_13.png)
 
 
 
@@ -260,7 +260,7 @@ sess.close()
 
 
 
-![png](output_7_16.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_16.png)
 
 
 
@@ -271,7 +271,7 @@ sess.close()
 
 
 
-![png](output_7_19.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_19.png)
 
 
 
@@ -282,7 +282,7 @@ sess.close()
 
 
 
-![png](output_7_22.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_22.png)
 
 
 
@@ -293,7 +293,7 @@ sess.close()
 
 
 
-![png](output_7_25.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_25.png)
 
 
 
@@ -304,7 +304,7 @@ sess.close()
 
 
 
-![png](output_7_28.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_28.png)
 
 
 
@@ -315,7 +315,7 @@ sess.close()
 
 
 
-![png](output_7_31.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_31.png)
 
 
 
@@ -326,7 +326,7 @@ sess.close()
 
 
 
-![png](output_7_34.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_34.png)
 
 
 
@@ -337,7 +337,7 @@ sess.close()
 
 
 
-![png](output_7_37.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_37.png)
 
 
 
@@ -348,7 +348,7 @@ sess.close()
 
 
 
-![png](output_7_40.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_40.png)
 
 
 
@@ -359,7 +359,7 @@ sess.close()
 
 
 
-![png](output_7_43.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_43.png)
 
 
 
@@ -370,7 +370,7 @@ sess.close()
 
 
 
-![png](output_7_46.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_46.png)
 
 
 
@@ -381,7 +381,7 @@ sess.close()
 
 
 
-![png](output_7_49.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_49.png)
 
 
 
@@ -392,7 +392,7 @@ sess.close()
 
 
 
-![png](output_7_52.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_52.png)
 
 
 
@@ -403,7 +403,7 @@ sess.close()
 
 
 
-![png](output_7_55.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_55.png)
 
 
 
@@ -414,7 +414,7 @@ sess.close()
 
 
 
-![png](output_7_58.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_58.png)
 
 
 
@@ -425,7 +425,7 @@ sess.close()
 
 
 
-![png](output_7_61.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_61.png)
 
 
 
@@ -436,7 +436,7 @@ sess.close()
 
 
 
-![png](output_7_64.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_64.png)
 
 
 
@@ -447,7 +447,7 @@ sess.close()
 
 
 
-![png](output_7_67.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_67.png)
 
 
 
@@ -458,7 +458,7 @@ sess.close()
 
 
 
-![png](output_7_70.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_70.png)
 
 
 
@@ -469,7 +469,7 @@ sess.close()
 
 
 
-![png](output_7_73.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_73.png)
 
 
 
@@ -480,19 +480,19 @@ sess.close()
 
 
 
-![png](output_7_76.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_76.png)
 
 
     Noisy Images
 
 
 
-![png](output_7_78.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_78.png)
 
 
     Reconstruction of Noisy Images
 
 
 
-![png](output_7_80.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_7_80.png)
 

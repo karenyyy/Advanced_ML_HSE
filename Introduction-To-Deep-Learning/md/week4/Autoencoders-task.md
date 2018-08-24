@@ -145,7 +145,7 @@ gc.collect()
 
 
 
-![png](output_9_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_9_2.png)
 
 
 # Autoencoder architecture
@@ -314,7 +314,7 @@ for i in range(5):
 
 
 
-![png](output_17_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_17_1.png)
 
 
     (32, 32, 3)
@@ -322,7 +322,7 @@ for i in range(5):
 
 
 
-![png](output_17_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_17_3.png)
 
 
     (32, 32, 3)
@@ -330,7 +330,7 @@ for i in range(5):
 
 
 
-![png](output_17_5.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_17_5.png)
 
 
     (32, 32, 3)
@@ -338,7 +338,7 @@ for i in range(5):
 
 
 
-![png](output_17_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_17_7.png)
 
 
     (32, 32, 3)
@@ -346,7 +346,7 @@ for i in range(5):
 
 
 
-![png](output_17_9.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_17_9.png)
 
 
 # Going deeper: convolutional autoencoder
@@ -392,7 +392,7 @@ def test_conv2d_transpose(img_size, filter_size):
     f = (np.ones(filter_size ** 2, dtype=np.float32)).reshape((filter_size, filter_size, 1, 1))
 
     conv = tf.nn.conv2d_transpose(x, f, 
-                                  output_shape=(1, img_size * 2, img_size * 2, 1), 
+                                  https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_shape=(1, img_size * 2, img_size * 2, 1), 
                                   strides=[1, 2, 2, 1], 
                                   padding='SAME')
 
@@ -514,13 +514,13 @@ def build_deep_autoencoder(img_shape, code_size):
 
 ```python
 # Check autoencoder shapes along different code_sizes
-get_dim = lambda layer: np.prod(layer.output_shape[1:])
+get_dim = lambda layer: np.prod(layer.https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_shape[1:])
 for code_size in [1,8,32,128,512]:
     s = reset_tf_session()
     encoder, decoder = build_deep_autoencoder(IMG_SHAPE, code_size=code_size)
     print("Testing code size %i" % code_size)
-    assert encoder.output_shape[1:]==(code_size,),"encoder must output a code of required size"
-    assert decoder.output_shape[1:]==IMG_SHAPE,   "decoder must output an image of valid shape"
+    assert encoder.https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_shape[1:]==(code_size,),"encoder must output a code of required size"
+    assert decoder.https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_shape[1:]==IMG_SHAPE,   "decoder must output an image of valid shape"
     assert len(encoder.trainable_weights)>=6,     "encoder must contain at least 3 layers"
     assert len(decoder.trainable_weights)>=6,     "decoder must contain at least 3 layers"
     
@@ -742,7 +742,7 @@ for i in range(5):
 
 
 
-![png](output_27_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_27_1.png)
 
 
     (32, 32, 3)
@@ -750,7 +750,7 @@ for i in range(5):
 
 
 
-![png](output_27_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_27_3.png)
 
 
     (32, 32, 3)
@@ -758,7 +758,7 @@ for i in range(5):
 
 
 
-![png](output_27_5.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_27_5.png)
 
 
     (32, 32, 3)
@@ -766,7 +766,7 @@ for i in range(5):
 
 
 
-![png](output_27_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_27_7.png)
 
 
     (32, 32, 3)
@@ -774,7 +774,7 @@ for i in range(5):
 
 
 
-![png](output_27_9.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_27_9.png)
 
 
 
@@ -901,7 +901,7 @@ show_image(apply_gaussian_noise(X_train[:1],sigma=0.5)[0])
 
 
 
-![png](output_37_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_37_1.png)
 
 
 Training will take **1 hour**.
@@ -912,7 +912,7 @@ s = reset_tf_session()
 
 # we use bigger code size here for better quality
 encoder, decoder = build_deep_autoencoder(IMG_SHAPE, code_size=512)
-assert encoder.output_shape[1:]==(512,), "encoder must output a code of required size"
+assert encoder.https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_shape[1:]==(512,), "encoder must output a code of required size"
 
 inp = L.Input(IMG_SHAPE)
 code = encoder(inp)
@@ -1057,14 +1057,9 @@ for _ in range(5):
         output_image = decoder.predict(output_code[None])[0]
 
         plt.subplot(1,7,i+1)
-        show_image(output_image)
+        show_imageoutput_image)
         plt.title("a=%.2f"%a)
         
     plt.show()
 ```
 
-That's it!
-
-Of course there's a lot more you can do with autoencoders.
-
-If you want to generate images from scratch, however, we recommend you our honor track on Generative Adversarial Networks or GANs.
