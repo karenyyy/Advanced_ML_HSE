@@ -65,7 +65,7 @@ plt.imshow(data[np.random.randint(data.shape[0])], cmap="gray", interpolation="n
 
 
 
-![png](output_3_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_3_1.png)
 
 
 # Generative adversarial nets 101
@@ -346,21 +346,14 @@ for epoch in tnrange(50000):
         
 ```
 
-    After 6400 epochs
+    After 6400 epochs (6400 / 50000)
+    
+
+
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_20_1.png)
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_20_2.png)
 
 
-
-![png](output_20_2.png)
-
-
-
-```python
-#The network was trained for about 15k iterations. 
-#Training for longer yields MUCH better results
-plt.figure(figsize=[16,24])
-sample_images(16,8)
-```
