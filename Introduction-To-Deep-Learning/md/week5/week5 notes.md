@@ -381,4 +381,15 @@ but we should not use not too high numbers here, since if the update gate is ope
 
 ## Quiz
 
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz1.png)
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz2.png)
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz3.png)
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz4.png)
+
 
