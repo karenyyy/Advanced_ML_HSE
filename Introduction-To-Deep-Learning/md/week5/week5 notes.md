@@ -1,9 +1,9 @@
 
 ## Motivation for recurrent layers
 
-![](../../images/35.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/35.png)
 
-![](../../images/36.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/36.png)
 
 > Question 1
 
@@ -27,9 +27,9 @@ __There are 100*100 inputs to the first layer of the MLP: 100 elements for each 
 - 1 000 000
 
 
-![](../../images/37.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/37.png)
 
-![](../../images/38.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/38.png)
 
 
 > Question 2
@@ -56,16 +56,16 @@ __There are 200 inputs to the first layer of the MLP: 100 from the current input
 
 Takeaways:
 
-![](../../images/39.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/39.png)
 
 
 ## Simple RNN and Backpropagation
 
-![](../../images/40.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/40.png)
 
-![](../../images/41.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/41.png)
 
-![](../../images/42.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/42.png)
 
 
 > Note:
@@ -73,20 +73,20 @@ Takeaways:
 All weights are shared across time steps
 
 
-![](../../images/43.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/43.png)
 
-![](../../images/44.png)
-
-
-![](../../images/45.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/44.png)
 
 
-![](../../images/46.png)
-
-![](../../images/47.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/45.png)
 
 
-![](../../images/48.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/46.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/47.png)
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/48.png)
 
 
 
@@ -98,7 +98,7 @@ All weights are shared across time steps
 ### To train an RNN we need to backprop through layers and time
 
 
-![](../../images/49.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/49.png)
 
 
 __The more steps between the time moments k and t, the more elements are in this product__
@@ -107,11 +107,11 @@ __The more steps between the time moments k and t, the more elements are in this
 
 - Values of these Jacobian matrices have particularly severe impact on the contribution from faraway steps
 
-![](../../images/50.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/50.png)
 
-![](../../images/51.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/51.png)
 
-![](../../images/52.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/52.png)
 
 
 
@@ -121,17 +121,17 @@ __The more steps between the time moments k and t, the more elements are in this
 
 ### Gradient Exploding
 
-![](../../images/53.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/53.png)
 
-![](../../images/54.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/54.png)
 
-![](../../images/55.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/55.png)
 
 ### Gradient Vanishing
 
-![](../../images/56.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/56.png)
 
-![](../../images/57.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/57.png)
 
 
 > How can we deal with gradient vanishing and exploding?
@@ -145,7 +145,7 @@ __The more steps between the time moments k and t, the more elements are in this
 
 #### Property of orthogonal matrix
 
-![](../../images/58.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/58.png)
 
 So no matter how many times we perform repeated matrix multiplication, the resulting matrix does not explode or vanish.
 
@@ -184,7 +184,7 @@ __Takeaways:__
 
 ## Modern RNNs: LSTM
 
-![](../../images/59.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/59.png)
 
 When we do a back-prop on such layer, __gradient needs to go through non-linearity__ and __for multiplication by weight matrix W__, both can cause `gradient vanishing`
 
@@ -202,16 +202,16 @@ As the result, we have two ways through such layer:
 - one between $H_{t-1}$ and $H_t$
 - second between the memory cells $C_{t-1}$ and $C_t$
 
-![](../../images/60.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/60.png)
 
 
 
-![](../../images/61.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/61.png)
 
 
-![](../../images/62.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/62.png)
 
-![](../../images/63.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/63.png)
 
 
 
@@ -225,9 +225,9 @@ It is important because we want the elements on the gates to take values from 0 
 So if we multiply some info by the gate vector, we either get the same info or zero or some value in between
 
 
-![](../../images/64.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/64.png)
 
-![](../../images/66.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/66.png)
 
 
 
@@ -236,9 +236,9 @@ So if we multiply some info by the gate vector, we either get the same info or z
 - the output gate controld what to read from the memory and return to the outer 
 
 
-![](../../images/65.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/65.png)
 
-![](../../images/67.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/67.png)
 
 - memory cell c are multiplied by the output gate and then returned as a new hidden units
 
@@ -254,9 +254,9 @@ And the important thing is there is at least one short way for the information a
 So if we calculate the Jacobian of $C_t$ with respect to $C_{t-1}$, __it's equal to 1!! So there's no vanishing problem anymore__
 
 
-![](../../images/69.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/69.png)
 
-![](../../images/68.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/68.png)
 
 
 
@@ -264,10 +264,10 @@ Memory C has faint capacities so the values will be a mess after a lot of time s
 
 
 
-![](../../images/70.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/70.png)
 
 
-![](../../images/71.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/71.png)
 
 
 Forget gate is very important to long sequences, because of which we now have multiplication on the short way through the LSTM. 
@@ -304,17 +304,17 @@ __At the beginning, LSTM doesn't forget and can't find long range dependencies i
 ### Intuition about how LSTM behave in practice 
 
 
-![](../../images/72.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/72.png)
 
 
-![](../../images/73.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/73.png)
 
 
 Because of these different regimes, LSTM can work with the information more accurately, for example, when the simple RNN read something from data, it outputs the info at each time step and gradually forgets it each time. At the same situation, LSTM can carry the info much longer from time and outputs it only in the particular time steps
 
 
 
-![](../../images/74.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/74.png)
 
 
 > Takeaways:
@@ -335,12 +335,12 @@ The GRU layer doesn't contain an additional internal memory, but it also contain
 
 
 
-![](../../images/75.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/75.png)
 
 
-![](../../images/76.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/76.png)
 
-![](../../images/77.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/77.png)
 
 
 - The update gate controls the balance between the storing the previous values of the hidden units and  the writing the new info into hidden units __so it works as a combination of inputs and forget gates from the LSTM__
@@ -350,15 +350,15 @@ The gradient vanishing problem in GRU is very similar to the one in LSTM.
 
 __Here we have a short way layer with only one multiplication by the update gate. The short way is actually an identity keep connection from $H_{t-1}$ to $H_t$__
 
-![](../../images/79.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/79.png)
 
 > Question: 
 
-![](../../images/78.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/78.png)
 
 
 
-![](../../images/80.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/80.png)
 
 
 
@@ -370,12 +370,15 @@ but we should not use not too high numbers here, since if the update gate is ope
 
 ### Rule of thumb
 
-![](../../images/81.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/81.png)
 
 
 ### Or use a multi-layer RNN so we can stack several recurrent layers
 
 
-![](../../images/82.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/82.png)
+
+
+## Quiz
 
 
