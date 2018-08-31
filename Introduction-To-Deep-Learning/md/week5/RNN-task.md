@@ -63,7 +63,7 @@ plt.hist(list(map(len,names)),bins=25);
 
 
 
-![png](output_5_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_5_1.png)
 
 
 # Text processing
@@ -321,9 +321,9 @@ def rnn_one_step(x_t, h_t):
     h_next = get_h_next(x_and_h) ###YOUR CODE HERE
     
     #get probabilities for language model P(x_next|h_next)
-    output_probas = get_probas(h_next) ###YOUR CODE HERE
+    https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_probas = get_probas(h_next) ###YOUR CODE HERE
     
-    return output_probas,h_next
+    return https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_probas,h_next
 ```
 
 ### RNN loop
@@ -432,7 +432,7 @@ assert np.mean(history[:10]) > np.mean(history[-10:]), "RNN didn't converge."
 ```
 
 
-![png](output_28_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_28_0.png)
 
 
 ### RNN: sampling
@@ -583,7 +583,7 @@ class CustomRNN(tf.nn.rnn_cell.BasicRNNCell):
         return rnn_one_step(input[:,0],state)
     
     @property
-    def output_size(self):
+    def https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_size(self):
         return n_tokens
 
 cell = CustomRNN(rnn_num_units)
