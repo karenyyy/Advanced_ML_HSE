@@ -4,11 +4,11 @@
 
 ### Autoencoder
 
-![](../../images/9.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/9.png)
 
-![](../../images/10.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/10.png)
 
-![](../../images/11.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/11.png)
 
 
 > Question 1:
@@ -24,11 +24,11 @@ What could possible go wrong with such autoencoder where the "code" is longer th
 - Autoencoder can't minimize MSE as efficiently as before
 
 
-![](../../images/12.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/12.png)
 
 #### Sparse Encoder -- use L1
 
-![](../../images/13.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/13.png)
 
 
 
@@ -48,16 +48,16 @@ L1 regularization means adding sum of absolute values of weights to the loss fun
 
 #### Denoizing  Autoencoder -- use Dropout
 
-![](../../images/14.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/14.png)
 
 
 #### Denoizing  Autoencoder -- use Dropout to remove input data
 
-![](../../images/15.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/15.png)
 
 
 
-![](../../images/16.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/16.png)
 
 
 
@@ -66,11 +66,11 @@ L1 regularization means adding sum of absolute values of weights to the loss fun
 
 
 
-![](../../images/17.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/17.png)
 
-![](../../images/18.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/18.png)
 
-![](../../images/19.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/19.png)
 
 ### Embeddings
 
@@ -78,7 +78,7 @@ Map data into a lower dimension space while preserving structure, MDS, LLE, __TS
 
 TSNE: 
 
-![](../../images/20.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/20.png)
 
 
 
@@ -89,7 +89,7 @@ TSNE:
 
 ### Word2Vec
 
-![](../../images/21.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/21.png)
 
 
 > Question 1:
@@ -120,7 +120,7 @@ What is the result of multiplying row-vector A of one-hot encoded word id1337 by
 
 - Exactly the vector A
 
-![](../../images/23.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/23.png)
 
 
 ----
@@ -144,7 +144,7 @@ Takeaway:
 
 ### Skip Gram Model -- take surrounding words and predict the middle word
 
-![](../../images/24.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/24.png)
 
 
 Which part of word2vec model would take most time to compute?
@@ -186,9 +186,9 @@ For simplicity, assume that you compute it on modern CPU as of year 2017, your v
 
 ### Generative models 101
 
-![](../../images/25.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/25.png)
 
-![](../../images/26.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/26.png)
 
 > Question 1
 
@@ -219,7 +219,7 @@ we may want to avoid this effect
 
 ### Sketch: using pre-trained nets
 
-![](../../images/27.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/27.png)
 
 
 $$L = || f(img) - f(Gen(seed))||$$
@@ -263,7 +263,7 @@ The idea of GAN is to train a model specifically to tell us whether a generated 
 
 __In GAN, we train Discriminator in order to train Generator__
 
-![](../../images/28.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/28.png)
 
 
 Takeaway:
@@ -292,11 +292,11 @@ What's our logical next step?
 
 - Train generator again on same data as before
 
-![](../../images/29.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/29.png)
 
 $$L_G = -\log [1-Disc(Gen(seed))] \rightarrow min$$
 
-![](../../images/30.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/30.png)
 
 $$L_D = -\log [1-Disc(real)] - \log Disc(Gen(seed))\rightarrow max$$
 
@@ -335,12 +335,12 @@ The first domain is labeled, the second is not
 Goal: to tag for the real-world dataset
 
 
-![](../../images/31.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/31.png)
 
-![](../../images/32.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/32.png)
 
 
-![](../../images/33.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/33.png)
 
 > Question 
 
@@ -376,7 +376,7 @@ Example: Art style transfer network structure
 - Extract content from original image
 
 
-![](../../images/34.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/34.png)
 
 
 > Question 

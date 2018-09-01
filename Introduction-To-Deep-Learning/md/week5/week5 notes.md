@@ -384,7 +384,7 @@ but we should not use not too high numbers here, since if the update gate is ope
 ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz1.png)
 
 
-![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz2.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/ma`ster/Introduction-To-Deep-Learning/images/quiz2.png)
 
 
 ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz3.png)
@@ -393,3 +393,21 @@ but we should not use not too high numbers here, since if the update gate is ope
 ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/quiz4.png)
 
 
+
+## Applications of LSTM
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/83.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/84.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/85.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/86.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/87.png)
+
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/88.png)
+
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/89.png)
