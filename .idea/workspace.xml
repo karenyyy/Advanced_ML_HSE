@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/notebooks/week1/.ipynb_checkpoints/week1 notes-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week1/.ipynb_checkpoints/week1 notes-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/notebooks/week1/week1 notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week1/week1 notes.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,20 +41,32 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +115,7 @@
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md" />
+        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" />
       </list>
     </option>
   </component>
@@ -114,10 +126,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="575" />
-    <option name="y" value="59" />
-    <option name="width" value="981" />
-    <option name="height" value="666" />
+    <option name="x" value="580" />
+    <option name="y" value="68" />
+    <option name="width" value="846" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,48 +154,7 @@
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
               <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
@@ -194,14 +166,25 @@
             <path>
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,9 +359,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <frame x="46" y="-11" width="1321" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14878622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12137823" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,7 +373,7 @@
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15846154" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -678,6 +661,13 @@
             <caret line="27" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
