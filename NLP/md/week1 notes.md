@@ -6,12 +6,12 @@ __Rule-based methods__
 - Semantic slot filling: CFG
     - Context-free grammars
     
-![](../../images/1.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/1.png)
 
 
-![](../../images/2.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/2.png)
 
-![](../../images/3.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/3.png)
 
     
 
@@ -31,7 +31,7 @@ __Probabilistic modeling and machine learning__
 __Deep Learning__
 - RNN
 
-![](../../images/4.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/4.png)
 
 - CNN
 
@@ -58,34 +58,34 @@ __Deep Learning__
 
 ## Simple recap of the application of NLP
 
-![](../../images/5.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/5.png)
 
-![](../../images/6.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/6.png)
 
-![](../../images/7.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/7.png)
 
-![](../../images/8.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/8.png)
 
-![](../../images/9.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/9.png)
 
-![](../../images/10.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/10.png)
 
-![](../../images/11.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/11.png)
 
-![](../../images/12.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/12.png)
 
 
 - Libraries
 
-![](../../images/13.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/13.png)
 
-![](../../images/14.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/14.png)
 
-![](../../images/15.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/15.png)
 
-![](../../images/16.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/16.png)
 
-![](../../images/17.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/17.png)
 
 
 
@@ -116,7 +116,7 @@ nltk.pos_tag(text)
 
 
 
-![](../../images/18.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/18.png)
 
 
 
@@ -1498,7 +1498,7 @@ n-gram tagger存在的问题是:
 (2) replace TO with IN when the next tag is NNS.
 
 
-![](../../images/19.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/19.png)
 
 
 第一步用unigram tagger对所有词做一遍tagging，这里面可能有很多不准确的
@@ -1532,9 +1532,9 @@ rules的例子:
 
 ### Token normalization
 
-![](../../images/20.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/20.png)
 
-![](../../images/21.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/21.png)
 
 
 ```python
@@ -1572,19 +1572,19 @@ stemmer = nltk.stem.PorterStemmer()
 
 ### BOW
 
-![](../../images/22.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/22.png)
 
 > how to preserve some order info?
 
-![](../../images/23.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/23.png)
 
 
-![](../../images/25.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/25.png)
 
 > Question 
 
 
-![](../../images/24.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/24.png)
 
 
 
@@ -1600,7 +1600,7 @@ stemmer = nltk.stem.PorterStemmer()
 
 #### TF (Term Frequency)
 
-![](../../images/29.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/29.png)
 
 #### IDF (Inverse document frequency)
 
@@ -1614,7 +1614,7 @@ $$tfidf(t,d,D) = tf(t,d) \cdot idf(t,D)$$
 - A high weight if TF-IDF is reached by a __high term frequency (TF)__ in the given document and __a low document frequency of the term (IDF)__ in the whole
 
 
-![](../../images/28.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/28.png)
 
 
 
@@ -3291,16 +3291,16 @@ for i, e in enumerate(tfidf_sorting):
     tfidf_tags.append(" ".join(tmp_tags))
 ```
 
-![](../../images/30.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/30.png)
 
-![](../../images/31.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/31.png)
 
 
-![](../../images/32.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/32.png)
 
-![](../../images/33.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/33.png)
 
-![](../../images/34.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/34.png)
 
 
 
@@ -3308,9 +3308,9 @@ for i, e in enumerate(tfidf_sorting):
 
 ### Hashing Example
 
-![](../../images/35.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/35.png)
 
-![](../../images/36.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/36.png)
 
 
 
