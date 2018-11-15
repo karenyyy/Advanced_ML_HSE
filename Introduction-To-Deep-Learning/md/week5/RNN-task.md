@@ -321,9 +321,9 @@ def rnn_one_step(x_t, h_t):
     h_next = get_h_next(x_and_h) ###YOUR CODE HERE
     
     #get probabilities for language model P(x_next|h_next)
-    https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_probas = get_probas(h_next) ###YOUR CODE HERE
+    output_probas = get_probas(h_next) ###YOUR CODE HERE
     
-    return https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_probas,h_next
+    return output_probas,h_next
 ```
 
 ### RNN loop
@@ -583,7 +583,7 @@ class CustomRNN(tf.nn.rnn_cell.BasicRNNCell):
         return rnn_one_step(input[:,0],state)
     
     @property
-    def https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_size(self):
+    def output_size(self):
         return n_tokens
 
 cell = CustomRNN(rnn_num_units)

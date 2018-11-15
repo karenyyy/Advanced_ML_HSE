@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/.ipynb_checkpoints/week6_final_project_image_captioning-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/.ipynb_checkpoints/week6_final_project_image_captioning-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/week6_final_project_image_captioning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/week6_final_project_image_captioning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/md/POS-task.md" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/md/POS-task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/md/week1 notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/md/week1 notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,44 +42,59 @@
     <session id="-401713000">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2" />
+          <entry key="md" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="3" />
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="1" />
+          <entry key="Markdown" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NLP/md/week1 notes.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="48951">
-                <caret line="3312" column="74" selection-start-line="3312" selection-start-column="74" selection-end-line="3312" selection-end-column="74" />
+              <first_editor relative-caret-position="41715">
+                <caret line="2781" selection-start-line="2781" selection-end-line="2781" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,11 +102,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
+        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="245">
-                <caret line="2785" lean-forward="true" selection-start-line="2785" selection-end-line="2785" />
+              <first_editor relative-caret-position="4680">
+                <caret line="312" column="300" selection-start-line="312" selection-start-column="294" selection-end-line="312" selection-end-column="300" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="6585">
+                <caret line="439" selection-end-line="660" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,14 +139,18 @@
       <find>submi</find>
       <find>1.png</find>
       <find>Training is done</find>
-      <find>output_</find>
       <find>../../</find>
+      <find>out</find>
+      <find>output</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week2/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week4/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week5/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -141,13 +175,14 @@
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Denoising-Autoencoder-using-Tensorflow.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Adversarial-task.md" />
-        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md" />
         <option value="$PROJECT_DIR$/NLP/md/POS-task.md" />
         <option value="$PROJECT_DIR$/NLP/md/week1 notes.md" />
+        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" />
+        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
       </list>
     </option>
   </component>
@@ -158,10 +193,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="76" />
-    <option name="width" value="981" />
-    <option name="height" value="666" />
+    <option name="x" value="246" />
+    <option name="y" value="38" />
+    <option name="width" value="864" />
+    <option name="height" value="661" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +234,21 @@
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
               <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="week6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="week6" type="462c0819:PsiDirectoryNode" />
+              <item name="week6_final_project_image_captioning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,6 +257,13 @@
               <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
               <item name="week5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="week6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
@@ -413,7 +470,7 @@
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11666667" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22651514" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,7 +481,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19422151" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -474,12 +531,9 @@
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/week4 Notes.ipynb" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Denoising-Autoencoder-using-Tensorflow.md" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Adversarial-task.md" />
-    <entry file="file://$PROJECT_DIR$/git.sh" />
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/utils.py" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/utils/preprocessed_mnist.py" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/config.py" />
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" />
@@ -493,21 +547,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
+    <entry file="file://$PROJECT_DIR$/git.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/md/week1 notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="245">
-            <caret line="2785" lean-forward="true" selection-start-line="2785" selection-end-line="2785" />
+          <first_editor relative-caret-position="137">
+            <caret line="3299" lean-forward="true" selection-start-line="3299" selection-end-line="3299" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/md/week1 notes.md">
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48951">
-            <caret line="3312" column="74" selection-start-line="3312" selection-start-column="74" selection-end-line="3312" selection-end-column="74" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="41715">
+            <caret line="2781" selection-start-line="2781" selection-end-line="2781" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4680">
+            <caret line="312" column="300" selection-start-line="312" selection-start-column="294" selection-end-line="312" selection-end-column="300" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="6585">
+            <caret line="439" selection-end-line="660" />
           </first_editor>
           <second_editor />
         </state>

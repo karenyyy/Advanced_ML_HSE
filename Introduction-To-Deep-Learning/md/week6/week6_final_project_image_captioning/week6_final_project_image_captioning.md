@@ -491,7 +491,7 @@ show_training_example(train_img_fns, train_captions, example_idx=142)
 ```
 
 
-![png](output_32_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_32_0.png)
 
 
 # Prepare captions for training
@@ -1199,7 +1199,7 @@ show_valid_example(val_img_fns, example_idx=100)
 
 
 
-![png](output_67_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_67_2.png)
 
 
 
@@ -1218,70 +1218,70 @@ for idx in np.random.choice(range(len(zipfile.ZipFile("/home/karen/Downloads/dat
 
 
 
-![png](output_68_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_2.png)
 
 
     a group of people standing on top of a boat
 
 
 
-![png](output_68_4.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_4.png)
 
 
     a woman is walking down a street holding a bag of luggage
 
 
 
-![png](output_68_6.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_6.png)
 
 
     a street sign with a street sign and a street sign
 
 
 
-![png](output_68_8.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_8.png)
 
 
     a pair of scissors are on a wall
 
 
 
-![png](output_68_10.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_10.png)
 
 
     a large jetliner sitting on top of a tarmac
 
 
 
-![png](output_68_12.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_12.png)
 
 
     a young boy holding a baby in a bowl
 
 
 
-![png](output_68_14.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_14.png)
 
 
     a cat sitting on a chair next to a cat
 
 
 
-![png](output_68_16.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_16.png)
 
 
     a bathroom with a toilet and a sink
 
 
 
-![png](output_68_18.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_18.png)
 
 
     a man on a beach with a surfboard in the water
 
 
 
-![png](output_68_20.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_68_20.png)
 
 
 You can download any image from the Internet and appply your model to it!
@@ -1326,7 +1326,7 @@ apply_model_to_image_raw_bytes(open("man_feeding_dog.jpg", "rb").read())
 
 
 
-![png](output_73_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_73_2.png)
 
 
 
@@ -1342,7 +1342,7 @@ apply_model_to_image_raw_bytes(open("man_and_laptop.jpg", "rb").read())
 
 
 
-![png](output_74_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/Introduction-To-Deep-Learning/images/week6/output_74_2.png)
 
 
 Now it's time to find 10 examples where your model works good and 10 examples where it fails! 
@@ -1359,9 +1359,3 @@ apply_model_to_image_raw_bytes(open("...", "rb").read())
 ```
 
 If you use these functions, the output will be embedded into your notebook and will be visible during peer review!
-
-When you're done, download your noteboook using "File" -> "Download as" -> "Notebook" and prepare that file for peer review!
-
-That's it! 
-
-Congratulations, you've trained your image captioning model and now can produce captions for any picture from the  Internet!
