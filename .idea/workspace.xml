@@ -2,27 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/.ipynb_checkpoints/week6_final_project_image_captioning-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/.ipynb_checkpoints/week6_final_project_image_captioning-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/week6_final_project_image_captioning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/week6_final_project_image_captioning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" afterDir="false" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1534487354587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3" />
+    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$finetune_alexnet.coverage" NAME="finetune alexnet Coverage Results" MODIFIED="1534527473244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3" />
+    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$lfw_dataset.coverage" NAME="lfw_dataset Coverage Results" MODIFIED="1534544825964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4" />
     <SUITE FILE_PATH="coverage/Advanced_ML_HSE$load_lfw.coverage" NAME="load_lfw Coverage Results" MODIFIED="1534913030065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj" />
     <SUITE FILE_PATH="coverage/Advanced_ML_HSE$preprocessed_mnist.coverage" NAME="preprocessed_mnist Coverage Results" MODIFIED="1535080175115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/utils" />
-    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$lfw_dataset.coverage" NAME="lfw_dataset Coverage Results" MODIFIED="1534544825964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4" />
     <SUITE FILE_PATH="coverage/Advanced_ML_HSE$mnist_summary.coverage" NAME="mnist_summary Coverage Results" MODIFIED="1534535497583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3" />
-    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$finetune_alexnet.coverage" NAME="finetune alexnet Coverage Results" MODIFIED="1534527473244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3" />
+    <SUITE FILE_PATH="coverage/Advanced_ML_HSE$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1534487354587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -88,37 +87,32 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="41715">
-                <caret line="2781" selection-start-line="2781" selection-end-line="2781" />
-              </first_editor>
-              <second_editor />
+    <leaf>
+      <file leaf-file-name="week1-MultilabelClassification.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4680">
-                <caret line="312" column="300" selection-start-line="312" selection-start-column="294" selection-end-line="312" selection-end-column="300" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="week2 notes.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md">
+      <file leaf-file-name="week2 notes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NLP/md/week2 notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="6585">
-                <caret line="439" selection-end-line="660" />
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -175,14 +169,14 @@
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Denoising-Autoencoder-using-Tensorflow.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Adversarial-task.md" />
+        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb" />
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md" />
-        <option value="$PROJECT_DIR$/NLP/md/POS-task.md" />
-        <option value="$PROJECT_DIR$/NLP/md/week1 notes.md" />
-        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week6/week6_final_project_image_captioning/week6_final_project_image_captioning.md" />
-        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md" />
+        <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/imagecap.py" />
+        <option value="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" />
+        <option value="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" />
       </list>
     </option>
   </component>
@@ -200,11 +194,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,54 +224,6 @@
             <path>
               <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
-              <item name="week6" type="462c0819:PsiDirectoryNode" />
-              <item name="week6_final_project_image_captioning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction-To-Deep-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="week6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced_ML_HSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
               <item name="NLP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,12 +243,13 @@
               <item name="Advanced_ML_HSE" type="462c0819:PsiDirectoryNode" />
               <item name="NLP" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="week2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,9 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load_lfw">
+  <component name="RunManager">
     <configuration name="finetune alexnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Advanced_ML_HSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -338,18 +294,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="Advanced_ML_HSE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/finetune alexnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="lfw_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Advanced_ML_HSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -360,18 +312,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="Advanced_ML_HSE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/lfw_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="load_lfw" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Advanced_ML_HSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -382,18 +330,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="Advanced_ML_HSE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/GAN_as_a_proj/data/load_datasets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="mnist_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Advanced_ML_HSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -404,18 +348,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="Advanced_ML_HSE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/mnist_summary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="preprocessed_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Advanced_ML_HSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -426,32 +366,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="Advanced_ML_HSE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction-To-Deep-Learning/utils/preprocessed_mnist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.load_lfw" />
-      <item itemvalue="Python.finetune alexnet" />
-      <item itemvalue="Python.preprocessed_mnist" />
-      <item itemvalue="Python.mnist_summary" />
-      <item itemvalue="Python.lfw_dataset" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.load_lfw" />
+      <item index="1" class="java.lang.String" itemvalue="Python.finetune alexnet" />
+      <item index="2" class="java.lang.String" itemvalue="Python.preprocessed_mnist" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mnist_summary" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lfw_dataset" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.lfw_dataset" />
-        <item itemvalue="Python.mnist_summary" />
-        <item itemvalue="Python.preprocessed_mnist" />
-        <item itemvalue="Python.finetune alexnet" />
-        <item itemvalue="Python.load_lfw" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.lfw_dataset" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mnist_summary" />
+        <item index="2" class="java.lang.String" itemvalue="Python.preprocessed_mnist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.finetune alexnet" />
+        <item index="4" class="java.lang.String" itemvalue="Python.load_lfw" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -467,36 +407,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="892" y="58" width="1926" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22651514" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19422151" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JSON Viewer" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="JSON Utils" order="6" />
-      <window_info anchor="right" id="JWT" order="7" />
-      <window_info anchor="right" id="R Graphics" order="8" />
-      <window_info anchor="right" id="R Packages" order="9" />
-      <window_info anchor="right" id="SciView" order="10" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15989584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +440,104 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/git.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="557">
+            <caret line="84" column="3" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/utils/preprocessed_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/week5 notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="6783">
+            <caret line="399" column="100" lean-forward="false" selection-start-line="399" selection-start-column="4" selection-end-line="399" selection-end-column="100" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/Autoencoders-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18105">
+            <caret line="1065" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1065" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week4/week4 Notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week5/POS-task.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/POS-task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="501">
+            <caret line="2842" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2857" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/imagecap.py" />
+    <entry file="file://$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/train.txt" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/common_shapes.py" />
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week3/preprocess.py" />
@@ -541,20 +573,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="302">
-            <caret line="1298" lean-forward="true" selection-start-line="1298" selection-end-line="1298" />
+            <caret line="1298" column="0" lean-forward="true" selection-start-line="1298" selection-start-column="0" selection-end-line="1298" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLP/md/week1 notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="137">
-            <caret line="3299" lean-forward="true" selection-start-line="3299" selection-end-line="3299" />
+            <caret line="3299" column="0" lean-forward="true" selection-start-line="3299" selection-start-column="0" selection-end-line="3299" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -574,7 +603,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="41715">
-            <caret line="2781" selection-start-line="2781" selection-end-line="2781" />
+            <caret line="2781" column="0" lean-forward="false" selection-start-line="2781" selection-start-column="0" selection-end-line="2781" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -584,7 +613,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="4680">
-            <caret line="312" column="300" selection-start-line="312" selection-start-column="294" selection-end-line="312" selection-end-column="300" />
+            <caret line="312" column="300" lean-forward="false" selection-start-line="312" selection-start-column="294" selection-end-line="312" selection-end-column="300" />
           </first_editor>
           <second_editor />
         </state>
@@ -594,7 +623,25 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="6585">
-            <caret line="439" selection-end-line="660" />
+            <caret line="439" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/md/week2 notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
