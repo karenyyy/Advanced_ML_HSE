@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Natural Language Processing with Python.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" afterPath="$PROJECT_DIR$/.idea/Advanced_ML_HSE.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/.ipynb_checkpoints/week2 notes-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week3/.ipynb_checkpoints/week3 notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week3/.ipynb_checkpoints/week3 notes-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week3/week3 notes.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week3/week3 notes.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,7 +88,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="week1-MultilabelClassification.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
@@ -106,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week2 notes.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="week2 notes.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NLP/md/week2 notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -115,6 +116,31 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paper.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLP/md/paper.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="540">
+                <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download_utils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NLP/notebooks/week2/download_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#46#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +203,8 @@
         <option value="$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week6/imagecap.py" />
         <option value="$PROJECT_DIR$/NLP/notebooks/week1/week1-MultilabelClassification.ipynb" />
         <option value="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" />
+        <option value="$PROJECT_DIR$/NLP/md/week2 notes.md" />
+        <option value="$PROJECT_DIR$/NLP/md/paper.md" />
       </list>
     </option>
   </component>
@@ -187,10 +215,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="246" />
-    <option name="y" value="38" />
-    <option name="width" value="864" />
-    <option name="height" value="661" />
+    <option name="x" value="892" />
+    <option name="y" value="58" />
+    <option name="width" value="1926" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +237,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +278,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,23 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/git.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/md/week5/RNN-task.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="557">
-            <caret line="84" column="3" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -644,6 +655,27 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/md/paper.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/notebooks/week2/download_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
