@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dc7cdd-7778-4ea8-bcbc-63e6c1d067ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week3/.ipynb_checkpoints/week3 notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week3/.ipynb_checkpoints/week3 notes-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/notebooks/week3/week3 notes.ipynb" afterPath="$PROJECT_DIR$/NLP/notebooks/week3/week3 notes.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP/md/week3 notes.md" afterPath="$PROJECT_DIR$/NLP/md/week3 notes.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download_utils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="download_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NLP/notebooks/week2/download_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -137,6 +136,19 @@
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week3 notes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NLP/md/week3 notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="468">
+                <caret line="1109" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1713" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,6 +213,7 @@
         <option value="$PROJECT_DIR$/NLP/notebooks/week2/week2 notes.ipynb" />
         <option value="$PROJECT_DIR$/NLP/md/week2 notes.md" />
         <option value="$PROJECT_DIR$/NLP/md/paper.md" />
+        <option value="$PROJECT_DIR$/NLP/md/week3 notes.md" />
       </list>
     </option>
   </component>
@@ -210,11 +223,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-884" />
-    <option name="y" value="-579" />
-    <option name="width" value="1922" />
-    <option name="height" value="1054" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="31" />
+    <option name="width" value="1926" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -431,7 +444,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-884" y="-579" width="1922" height="1054" extended-state="0" />
+    <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -442,7 +455,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16022964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,13 +482,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/notebooks/week4/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Introduction-To-Deep-Learning/utils/preprocessed_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -672,6 +678,17 @@
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLP/md/week3 notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="1109" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1713" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

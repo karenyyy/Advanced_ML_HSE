@@ -3,7 +3,7 @@
 
 ### Intro
 
-![](../../images/week3/16.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/16.png)
 
 
 回顾过去基于深度学习的 NLP 任务可以发现，几乎绝大多数都比较符合这三层概念。比如很多生成任务的 Seq2Seq 框架中不外乎都有一个 Encoder 和一个 Decoder。对应到这里，__Decoder 更像是一个 Task-specific Model，然后相应的将 Encoder 做一些细微调整，比如引入 Attention 机制等等__
@@ -15,44 +15,44 @@
 
 ### SVD+LSA -> PLSA -> LDA (introduce prior)
 
-![](../../images/week3/1.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/1.png)
 
 
-![](../../images/week3/2.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/2.png)
 
 
 ### Here:
 
 $$PPMI = \log (lift(or: interest)) = \log \frac{p(x, y)}{p(x)p(y)}$$
 
-![](../../images/week3/3.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/3.png)
 
 
 
-![](../../images/week3/9.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/9.png)
 
-![](../../images/week3/10.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/10.png)
 
-![](../../images/week3/11.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/11.png)
 
-![](../../images/week3/12.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/12.png)
 
-![](../../images/week3/13.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/13.png)
 
 
 ### Language Model
 
-![](../../images/week3/17.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/17.png)
 
-![](../../images/week3/21.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/21.png)
 
 
 ### NNLM
 
-![](../../images/week3/18.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/18.png)
 
 
-![](../../images/week3/24.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/24.png)
 
 
 
@@ -62,10 +62,10 @@ $$PPMI = \log (lift(or: interest)) = \log \frac{p(x, y)}{p(x)p(y)}$$
 ### CBOW
 
 
-![](../../images/week3/19.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/19.png)
 
 
-![](../../images/week3/26.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/26.png)
 
 
 
@@ -74,11 +74,11 @@ $$PPMI = \log (lift(or: interest)) = \log \frac{p(x, y)}{p(x)p(y)}$$
 ### SKIP-GRAM
 
 
-![](../../images/week3/20.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/20.png)
 
 
 
-![](../../images/week3/25.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/25.png)
 
 
 
@@ -87,7 +87,7 @@ $$PPMI = \log (lift(or: interest)) = \log \frac{p(x, y)}{p(x)p(y)}$$
 #### PV-DM (CBOW of paragraphs) &  PV-DBOW (Skip-Gram of paragraphs) 
 
 
-![](../../images/week3/22.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/22.png)
 
 
 ### Skip-Thoughts
@@ -113,7 +113,7 @@ Skip-thoughts 直接在句子间进行预测，也就是__将 Skip-gram 中以�
 Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就是把同一个上下文窗口中的句子对标记为正例，把不是出现在同一个上下文窗口中的句子对标记为负例，并将这些句子对输入模型，让模型判断这些句子对是否是同一个上下文窗口中，很明显，这是一个分类任务
     
     
-![](../../images/week3/23.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/23.png)
 
 
 
@@ -132,25 +132,25 @@ Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就
 
 ### [GloVe](https://nlp.stanford.edu/pubs/glove.pdf)
 
-![](../../images/week3/4.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/4.png)
 
 
-![](../../images/week3/5.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/5.png)
 
 
-![](../../images/week3/6.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/6.png)
 
 
-![](../../images/week3/7.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/7.png)
 
-![](../../images/week3/8.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/8.png)
 
 #### GloVe Paper Note
 
 
-![](../../images/week3/14.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/14.png)
 
-![](../../images/week3/15.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/15.png)
 
 
 
@@ -162,13 +162,13 @@ Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就
 
 #### Encoder
 
-![](../../images/week3/28.png)
-![](../../images/week3/29.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/28.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/29.png)
 
 
 #### Decoder
 
-![](../../images/week3/30.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/30.png)
 
 
 
@@ -180,16 +180,16 @@ Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就
 
 
 
-![](../../images/week3/31.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/31.png)
 
 然后，生成器会根据语境调整状态来决定要生成哪个单词，接下来语境调整状态会回传到解码器中，让解码器对其翻译的结果有一个准确的感知。解码器一直重复这个过程，直至它完成所有翻译。这就是一个标准的基于注意力机制的编码器-解码器结构，它被用来学习像机器翻译一样的序列到序列任务。
-![](../../images/week3/32.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/32.png)
 
 当训练过程结束之后，将训练好的 LSTM 提取出来作为编码器用于机器翻译。我们将这个预训练的 LSTM 称作机器翻译 LSTM（MT-LSTM），并使用它生成新句子的隐向量。当我们把这些机器翻译隐向量用于其它的自然语言处理模型时，我们就把它们称作__语境向量(CoVe)__(CoVe 可以被用在任何将向量序列作为输入的模型中)
 
 
 
-![](../../images/week3/27.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/27.png)
 
 
 
@@ -198,11 +198,11 @@ Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就
 
 #### CoVe Paper Note
 
-![](../../images/week3/33.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/33.png)
 
-![](../../images/week3/34.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/34.png)
 
-![](../../images/week3/35.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/35.png)
 
 
 #### CoVe Model Code
@@ -218,46 +218,46 @@ Skip-thoughts 的生成任务改进成为了一个分类任务，具体说来就
 
 - Seq2seq rnn-based model (without attention):
 
-![](../../images/week3/36.jpg)
-![](../../images/week3/40.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/36.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/40.jpg)
 
 
 
 - with attention
 
-![](../../images/week3/41.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/41.jpg)
 
 在该模型中，定义了一个条件概率：
 
-![](../../images/week3/42.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/42.jpg)
 
 其中，$s_i$是decoder中RNN在在i时刻的隐状态
 
-![](../../images/week3/43.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/43.jpg)
 
 背景向量ci的计算方式，与传统的Seq2Seq模型直接累加的计算方式不一样，这里的ci是一个权重化（Weighted）之后的值:
 
-![](../../images/week3/44.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/44.jpg)
 
 $h_j$ 表示encoder端的第j个词的隐向量，$a_{ij}$表示encoder端的第j个词与decoder端的第i个词之间的权值，表示源端第j个词对目标端第i个词的影响程度
 
 $a_{ij}$的计算公式:
 
-![](../../images/week3/45.jpg)
-![](../../images/week3/52.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/45.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/52.png)
 
 
 $e_{ij}$ 表示一个对齐模型，用于衡量encoder端的位置j个词，对于decoder端的位置i个词的对齐程度（影响程度）(i.e. decoder端生成位置i的词时，有多少程度受encoder端的位置j的词影响)
 
 对齐模型eij的计算方式有很多种，不同的计算方式，代表不同的Attention模型，最简单且最常用的的对齐模型是dot product乘积矩阵，即把target端的输出隐状态ht与source端的输出隐状态进行矩阵乘
 
-![](../../images/week3/46.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/46.jpg)
 
 
-![](../../images/week3/37.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/37.jpg)
 
 
-![](../../images/week3/38.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/38.jpg)
 
 
 权重 $\alpha$ 是怎么来的呢？常见有三种方法：
@@ -273,7 +273,7 @@ $e_{ij}$ 表示一个对齐模型，用于衡量encoder端的位置j个词，对
 
 attention其实是以下的机制:
 
-![](../../images/week3/39.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/39.jpg)
 
 模型通过Q和K的匹配计算出权重，再结合V得到输出：
 
@@ -287,28 +287,28 @@ $$Attention(Q, K, V) = softmax(sim(Q, K))V$$
     - Global/Local Attention
         - global attention：传统attention，对所有encoder输出进行计算
             - 传统的Attention model一样。所有的hidden state都被用于计算Context vector 的权重，即变长的对齐向量at，其长度等于encoder端输入句子的长度
-            ![](../../images/week3/47.jpg)
+            ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/47.jpg)
             在t时刻，首先基于decoder的隐状态ht和源端的隐状态hs，计算一个变长的隐对齐权值向量$a_t$
-            ![](../../images/week3/48.jpg)
+            ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/48.jpg)
             得到对齐向量$a_t$之后，就可以通过加权平均的方式，得到上下文向量$c_t$
         - local attention：介于soft和hard之间，会预测一个位置并选取一个窗口进行计算
-            - ![](../../images/week3/49.jpg)
+            - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/49.jpg)
             - Local Attention首先会为decoder端当前的词，预测一个source端对齐位置（aligned position）$p_t$，然后基于$p_t$选择一个窗口，用于计算背景向量$c_t$
-            ![](../../images/week3/50.jpg)
+            ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/50.jpg)
             - S是encoder端句子长度，vp和wp是模型参数, 此时，对齐向量at的计算公式:
-            ![](../../images/week3/51.jpg)
+            ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/51.jpg)
     - Self Attention
-        - ![](../../images/week3/50.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/50.png)
         - Self-attention 中的multiple-heads mechanism便是将这样的操作分别进行多次，让句子的表征充分学习到不同的侧重点，最终将这些多头学习出来的表征 concat 到一起，然后再同一个全连接网络，便可以得到这个句子最终 Self-attention 下新的表示, 其中的每一个头的操作过程用公式表示如下，需要注意的是 softmax 是针对矩阵的 row 方向进行操作得到的。所以，说白了，这个公式表示的意思就是针对 V 进行加权求和，加权权值通过 Q 和 K 的点乘得到:
-        - ![](../../images/week3/51.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/51.png)
         - 这里给出一例，下图只是两个 head 学习到的交融模式，如果多达 16 个 head，这样的交融模式还要重复16次 (而相应的在 ELMo 与 GPT 中，它们并没有用上这种交融模式，也就是它们本质上还是一个单向的模型，ELMo 稍微好一点，将两个单向模型的信息 concat起 来。GPT 则只用了单向模型，这是因为它没有用上 Transformer Encoder、只用了 Decdoer 的天生基因决定的):
-        - ![](../../images/week3/55.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/55.png)
         - 传统attention是计算Q和K之间的依赖关系，__而self attention则分别计算Q和K自身的依赖关系__
         - Self Attention 分别在source端和target端进行，仅与source input或者target input自身相关的Self Attention，捕捉source端或target端自身的词与词之间的依赖关系；然后再把source端的得到的self Attention加入到target端得到的Attention中，捕捉source端和target端词与词之间的依赖关系
         - Self Attention 的具体计算方式如图所示:
-        ![](../../images/week3/52.jpg)
+        ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/52.jpg)
        - 从All Attention的结构示意图可以发现，Encoder和decoder是层叠多了类似的__Multi-Head Attention__单元构成，而每一个Multi-Head Attention单元由多个结构相似的__Scaled Dot-Product Attention__单元组成
-        ![](../../images/week3/53.jpg)
+        ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/53.jpg)
         - Self Attention也是在Scaled Dot-Product Attention单元里面实现的
             - 首先把输入Input经过线性变换分别得到Q、K、V
             - 然后把Q和K做dot Product相乘，得到输入Input词与词之间的依赖关系
@@ -316,7 +316,7 @@ $$Attention(Q, K, V) = softmax(sim(Q, K))V$$
             - 最后，把encoder端self Attention计算的结果加入到decoder做为k和V，结合decoder自身的输出做为q，得到encoder端的attention与decoder端attention之间的依赖关系
     - Other Attention
         - __Hierarchical Attention__构建了两个层次的Attention Mechanism，第一个层次是对句子中每个词的attention，即word attention；第二个层次是针对文档中每个句子的attention，即sentence attention
-         ![](../../images/week3/54.jpg)
+         ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/54.jpg)
         - __Attention over Attention__
             - 两个输入，一个Document和一个Query，分别用一个双向的RNN进行特征抽取，得到各自的隐状态h（doc）和h（query)
             - 然后基于query和doc的隐状态进行dot product，得到query和doc的attention关联矩阵
@@ -332,7 +332,7 @@ $$Attention(Q, K, V) = softmax(sim(Q, K))V$$
 OpenAI Transformer是一类可迁移到多种NLP任务的，基于Transformer的语言模型。它的基本思想同ULMFiT相同，都是在尽量不改变模型结构的情况下__将预训练的语言模型应用到各种任务__。不同的是，OpenAI Transformer主张用Transformer结构，而ULMFiT中使用的是基于RNN的语言模型
 
 
-![](../../images/week3/64.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/64.jpg)
 
 
 
@@ -344,14 +344,14 @@ Besides _Self Attention_, 在 Transformer 的 Encoder 中，还有一些其他�
 
 Decoder 的结构与此类似，只不过在进行 decode 的时候，会__将 Encoder 这边的输出作为 Decoder 中 Self-attention 时的 K 和 V__
 
-![](../../images/week3/53.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/53.png)
 
 
 对于 decode 过程，具体来看，大致过程如下:
 
-![](../../images/week3/54.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/54.png)
 
-![](../../images/week3/1.gif)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/1.gif)
 
 
 
@@ -511,7 +511,7 @@ def attention_decoder(decoder_inputs,    #T * [batch_size, input_size]
 
 __num_heads__:
 
-![](../../images/week3/37.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/37.png)
 
 attention就是对信息的加权求和，一个attention head对应了一种加权求和方式，这个参数定义了用多少个attention head去加权求和，所以公式三可以进一步表述为$\sum^{num\_heads}_{j=1}\sum^{T_{A}}_{i=1}a_{i,j}h_{i}$
 
@@ -563,32 +563,32 @@ for a in xrange(num_heads):
 Goal: 一个预训练的词表示应该能够包含丰富的句法和语义信息，并且能够对多义词进行建模
 
 
-![](../../images/week3/55.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/55.jpg)
 
 
 ELMo 利用语言模型来获得一个上下文相关的预训练表示:
 
-![](../../images/week3/38.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/38.png)
 
 基本框架是一个双层的 Bi-LSTM，不过在第一层和第二层之间加入了一个残差结构（一般来说，残差结构能让训练过程更稳定)
 
 在 ELMo 中使用的是一个双向的 LSTM 语言模型，由一个前向和一个后向语言模型构成，目标函数就是取这两个方向语言模型的最大似然. ELMo 的__基本框架是 2-stacked biLSTM + Residual 的结构__, ELMo 的训练目标函数为:
 
-![](../../images/week3/39.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/39.png)
 
 
-![](../../images/week3/56.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/56.jpg)
 
 
 在预训练好这个语言模型之后，ELMo 就是根据下面的公式来用作词表示，其实就是把这个双向语言模型的每一中间层进行一个求和:
 
-![](../../images/week3/57.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/57.jpg)
 
 __总结一下，不像传统的词向量，每一个词只对应一个词向量，ELMo 利用预训练好的双向语言模型，然后根据具体输入从该语言模型中可以得到上下文依赖的当前词表示（对于不同上下文的同一个词的表示是不一样的），再当成特征加入到具体的 NLP 有监督模型里__
 
 不过和普通 RNN 结构的不同之处在于，其主要改进在于输入层和输出层不再是 word，而是变为了一个 char-based CNN 结构，ELMo 在输入层和输出层考虑了使用同样的这种结构，该结构如下图示:
 
-![](../../images/week3/40.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/40.png)
 
 
 _$Note^*$:_
@@ -598,11 +598,11 @@ _$Note^*$:_
 
 在 CBOW 中的普通 Softmax 方法中，为了计算每个词的概率大小，使用的如下公式的计算方法:
 
-![](../../images/week3/41.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/41.png)
 
 现在我们假定 char-based CNN 模型是现成已有的，对于任意一个目标词都可以得到一个向量表示 CNN(tk) ，当前时刻的 LSTM 的输出向量为 h，那么便可以通过同样的方法得到目标词的概率大小:
 
-![](../../images/week3/42.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/42.png)
 
 
 这种先经过 CNN 得到词向量，然后再计算 Softmax 的方法叫做 CNN Softmax
@@ -620,14 +620,14 @@ _$Note^*$:_
 最终 ELMo 的主要结构便如下图（b）所示，可见输入层和输出层都是一个 CNN，中间使用 Bi-LSTM 框架:
 
 
-![](../../images/week3/43.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/43.png)
 
 $s_j$ 便是针对每一层的输出向量，利用一个 softmax 的参数来学习不同层的权值参数，因为不同任务需要的词语意义粒度也不一致，一般认为浅层的表征比较倾向于句法，而高层输出的向量比较倾向于语义信息。因此通过一个 softmax 的结构让任务自动去学习各层之间的权重
 
-![](../../images/week3/44.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/44.png)
 
 
-![](../../images/week3/45.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/45.png)
 
 
 
@@ -684,195 +684,6 @@ model.summary()
 
 
 
-    ---------------------------------------------------------------------------
-
-    KeyboardInterrupt                         Traceback (most recent call last)
-
-    <ipython-input-2-850bfcc5f106> in <module>
-         10 
-         11 # Instantiate the elmo model
-    ---> 12 elmo_model = hub.Module("https://tfhub.dev/google/elmo/1", trainable=True)
-         13 sess.run(tf.global_variables_initializer())
-         14 sess.run(tf.tables_initializer())
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/module.py in __init__(self, spec, trainable, name, tags)
-        103     """
-        104     self._graph = tf.get_default_graph()
-    --> 105     self._spec = as_module_spec(spec)
-        106     self._trainable = trainable
-        107 
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/module.py in as_module_spec(spec)
-         29     return spec
-         30   elif isinstance(spec, str):
-    ---> 31     return native_module.load_module_spec(spec)
-         32   else:
-         33     raise ValueError("Unknown module spec type: %r" % type(spec))
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/native_module.py in load_module_spec(path)
-         97     tf.OpError: on file handling exceptions.
-         98   """
-    ---> 99   path = compressed_module_resolver.get_default().get_module_path(path)
-        100   module_def_path = _get_module_proto_path(path)
-        101   module_def_proto = module_def_pb2.ModuleDef()
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/resolver.py in get_module_path(self, handle)
-        383     """
-        384     if self.is_supported(handle):
-    --> 385       return self._get_module_path(handle)
-        386     else:
-        387       raise UnsupportedHandleError(
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/resolver.py in _get_module_path(self, handle)
-        465       raise UnsupportedHandleError(
-        466           self._create_unsupported_handle_error_msg(handle))
-    --> 467     return resolver.get_module_path(handle)
-        468 
-        469   def _create_unsupported_handle_error_msg(self, handle):
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/resolver.py in get_module_path(self, handle)
-        383     """
-        384     if self.is_supported(handle):
-    --> 385       return self._get_module_path(handle)
-        386     else:
-        387       raise UnsupportedHandleError(
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/compressed_module_resolver.py in _get_module_path(self, handle)
-        103 
-        104     return resolver.atomic_download(handle, download, module_dir,
-    --> 105                                     self._lock_file_timeout_sec())
-        106 
-        107   def _lock_file_timeout_sec(self):
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/resolver.py in atomic_download(handle, download_fn, module_dir, lock_file_timeout_sec)
-        311     tf.logging.info("Downloading TF-Hub Module '%s'.", handle)
-        312     tf.gfile.MakeDirs(tmp_dir)
-    --> 313     download_fn(handle, tmp_dir)
-        314     # Write module descriptor to capture information about which module was
-        315     # downloaded by whom and when. The file stored at the same level as a
-
-
-    /usr/local/lib/python3.6/dist-packages/tensorflow_hub/compressed_module_resolver.py in download(handle, tmp_dir)
-         99 
-        100       url_opener = url.build_opener(LoggingHTTPRedirectHandler)
-    --> 101       response = url_opener.open(request)
-        102       return resolver.download_and_uncompress(cur_url, response, tmp_dir)
-        103 
-
-
-    /usr/lib/python3.6/urllib/request.py in open(self, fullurl, data, timeout)
-        524             req = meth(req)
-        525 
-    --> 526         response = self._open(req, data)
-        527 
-        528         # post-process response
-
-
-    /usr/lib/python3.6/urllib/request.py in _open(self, req, data)
-        542         protocol = req.type
-        543         result = self._call_chain(self.handle_open, protocol, protocol +
-    --> 544                                   '_open', req)
-        545         if result:
-        546             return result
-
-
-    /usr/lib/python3.6/urllib/request.py in _call_chain(self, chain, kind, meth_name, *args)
-        502         for handler in handlers:
-        503             func = getattr(handler, meth_name)
-    --> 504             result = func(*args)
-        505             if result is not None:
-        506                 return result
-
-
-    /usr/lib/python3.6/urllib/request.py in https_open(self, req)
-       1359         def https_open(self, req):
-       1360             return self.do_open(http.client.HTTPSConnection, req,
-    -> 1361                 context=self._context, check_hostname=self._check_hostname)
-       1362 
-       1363         https_request = AbstractHTTPHandler.do_request_
-
-
-    /usr/lib/python3.6/urllib/request.py in do_open(self, http_class, req, **http_conn_args)
-       1316             try:
-       1317                 h.request(req.get_method(), req.selector, req.data, headers,
-    -> 1318                           encode_chunked=req.has_header('Transfer-encoding'))
-       1319             except OSError as err: # timeout error
-       1320                 raise URLError(err)
-
-
-    /usr/lib/python3.6/http/client.py in request(self, method, url, body, headers, encode_chunked)
-       1237                 encode_chunked=False):
-       1238         """Send a complete request to the server."""
-    -> 1239         self._send_request(method, url, body, headers, encode_chunked)
-       1240 
-       1241     def _send_request(self, method, url, body, headers, encode_chunked):
-
-
-    /usr/lib/python3.6/http/client.py in _send_request(self, method, url, body, headers, encode_chunked)
-       1283             # default charset of iso-8859-1.
-       1284             body = _encode(body, 'body')
-    -> 1285         self.endheaders(body, encode_chunked=encode_chunked)
-       1286 
-       1287     def getresponse(self):
-
-
-    /usr/lib/python3.6/http/client.py in endheaders(self, message_body, encode_chunked)
-       1232         else:
-       1233             raise CannotSendHeader()
-    -> 1234         self._send_output(message_body, encode_chunked=encode_chunked)
-       1235 
-       1236     def request(self, method, url, body=None, headers={}, *,
-
-
-    /usr/lib/python3.6/http/client.py in _send_output(self, message_body, encode_chunked)
-       1024         msg = b"\r\n".join(self._buffer)
-       1025         del self._buffer[:]
-    -> 1026         self.send(msg)
-       1027 
-       1028         if message_body is not None:
-
-
-    /usr/lib/python3.6/http/client.py in send(self, data)
-        962         if self.sock is None:
-        963             if self.auto_open:
-    --> 964                 self.connect()
-        965             else:
-        966                 raise NotConnected()
-
-
-    /usr/lib/python3.6/http/client.py in connect(self)
-       1390             "Connect to a host on a given (SSL) port."
-       1391 
-    -> 1392             super().connect()
-       1393 
-       1394             if self._tunnel_host:
-
-
-    /usr/lib/python3.6/http/client.py in connect(self)
-        934         """Connect to the host and port specified in __init__."""
-        935         self.sock = self._create_connection(
-    --> 936             (self.host,self.port), self.timeout, self.source_address)
-        937         self.sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
-        938 
-
-
-    /usr/lib/python3.6/socket.py in create_connection(address, timeout, source_address)
-        711             if source_address:
-        712                 sock.bind(source_address)
-    --> 713             sock.connect(sa)
-        714             # Break explicitly a reference cycle
-        715             err = None
-
-
-    KeyboardInterrupt: 
 
 
 ### ULMFiT
@@ -882,16 +693,16 @@ ULMFiT是一种有效的NLP迁移学习方法，核心思想是通过精调预�
 ULMFiT的过程分为三步:
 
 
-![](../../images/week3/47.png)
-![](../../images/week3/63.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/47.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/63.jpg)
 
 
 - ASGD(Averaged SGD):
     - 是指先将模型训练到一定 epoch，然后再将其后的每一轮权值进行平均后，得到最终的权值
     - 普通的 SGD 方法权值更新过程为：
-        - ![](../../images/week3/48.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/48.png)
     - ASGD 则把它变成了:
-        - ![](../../images/week3/49.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/49.png)
         - 其中 T 是一个阈值，而 K 是总共的迭代次数，把model迭代到第 T 次之后，对该参数在其后的第 T 轮到最后一轮之间的所有值求平均，
 
 
@@ -900,7 +711,7 @@ ULMFiT的过程分为三步:
         - 因为网络中不同层可以捕获不同类型的信息，因此在精调时也应该使用不同的learning rate。作者为每一层赋予一个学习率  $\eta^{l}$ ，实验后发现，首先通过精调模型的最后一层L确定学习率  $\eta^{L}$ ，再递推地选择上一层学习率进行精调的效果最好，递推公式为:  $\eta^{l-1} =\frac{ \eta^{l}}{2.6}$
     - Slanted triangular learning rates (STLR)
         - 为了针对特定任务选择参数，理想情况下需要在训练开始时让参数快速收敛到一个合适的区域，之后进行精调。为了达到这种效果，作者提出STLR方法，即让LR在训练初期短暂递增，在之后下降。如上图的右上角所示
-        - ![](../../images/week3/46.png)
+        - ![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/46.png)
         - parameters:
             - T: number of training iterations
             - cut_frac: fraction of iterations we increase the LR
@@ -961,12 +772,12 @@ Details:
 __主要亮点在于利用了Transformer网络代替了LSTM作为语言模型来更好的捕获长距离语言结构__
 
 
-![](../../images/week3/58.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/58.jpg)
 
 
 在具体 NLP 任务有监督微调时，与 ELMo 当成特征的做法不同，OpenAI GPT 不需要再重新对任务构建新的模型结构，而是直接在 Transformer 这个语言模型上的最后一层接上 softmax 作为任务输出层，然后再对这整个模型进行微调
 
-![](../../images/week3/59.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/59.jpg)
 
 - 2. Supervised fine-tuning
 
@@ -1177,7 +988,7 @@ def model(X, M, Y, train=False, reuse=False):
 这篇论文把预训练语言表示方法分为了基于特征的方法（代表 ELMo）和基于微调的方法（代表 OpenAI GPT）。而目前这两种方法在预训练时都是使用单向的语言模型来学习语言表示
 
 
-![](../../images/week3/60.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/60.jpg)
 
 
 这篇论文证明了使用双向的预训练效果更好。其实这篇论文方法的整体框架和 GPT 类似，是进一步的发展。具体的，BERT 是使用 Transformer 的编码器来作为语言模型，在语言模型预训练的时候，提出了两个新的目标任务（即masked语言模型 MLM 和预测下一个句子的任务)
@@ -1187,7 +998,7 @@ def model(X, M, Y, train=False, reuse=False):
 
 在语言模型上，BERT 使用的是 Transformer 编码器，并且设计了一个小一点的 base 结构和一个更大的网络结构
 
-![](../../images/week3/61.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/61.jpg)
 
 对比一下三种语言模型结构:
 
@@ -1198,7 +1009,7 @@ def model(X, M, Y, train=False, reuse=False):
 
 __所以只有 BERT 是真正在模型所有层中是双向的__
 
-![](../../images/week3/62.jpg)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/62.jpg)
 
 
 $Note^*$:
@@ -1222,7 +1033,7 @@ BERT 的作者很快联想到了，如果把原来要预测整个句子的输出
 
 - 正是因为加了 mask，因此 BERT 才把这种方法叫做 Masked-LM
 
-![](../../images/week3/56.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/56.png)
     
     
 这就直接把普通语言模型中的生成问题（正如 GPT 中把它当做一个生成问题一样，虽然其本质上也是一个序列生成问题），变为一个简单的分类问题，并且也直接解决了 Encoder 中多层 Self-attention 的双向机制带来的泄密问题（单层 Self-attention 是真双向，但不会带来泄密问题，只有多层累加的 Self-attention 才会带来泄密问题），使得语言模型中的真双向机制变为现实。
@@ -1251,7 +1062,7 @@ BERT 针对如何做“[MASK]”，做了一些更深入的研究，它做了如
 BERT的损失函数由两部分组成，第一部分是来自 Mask-LM 的单词级别分类任务，另一部分是句子级别的分类任务。通过这两个任务的联合学习，可以使得 __BERT 学习到的表征既有 token 级别信息，同时也包含了句子级别的语义信息__。具体损失函数如下:
 
 
-![](../../images/week3/57.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/57.png)
 
 
 - 其中 $\theta$ 是 BERT 中 Encoder 部分的参数;
@@ -1261,16 +1072,16 @@ BERT的损失函数由两部分组成，第一部分是来自 Mask-LM 的单词�
 
 因此，在Masked-LM的损失函数中，如果被 mask 的词集合为 M，因为它是一个词典大小 $|V|$ 上的__多分类问题__，那么具体说来有:
 
-![](../../images/week3/58.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/58.png)
 
 
 在Next sentence prediction任务中，也是一个分类问题的损失函数:
 
-![](../../images/week3/59.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/59.png)
 
 两个任务联合学习的损失函数是:
 
-![](../../images/week3/60.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/60.png)
 
 
 BERT 还利用了一系列策略，使得模型更易于训练，比如对于学习率的 warm-up 策略（和上文提到的 ULMFiT 以及 Transformer 中用到的技巧类似），使用的激活函数不再是普通的 ReLu，而是 __GeLu__，也是用了 dropout 等常见的训练技巧
@@ -1281,7 +1092,7 @@ BERT 还利用了一系列策略，使得模型更易于训练，比如对于学
 除了这些之外，BERT 还用两个表示当前是句子 A 或句子 B 的向量来进行表示。对于句子 A 来说，每一词都会添加一个同样的表示当前句子为句子 A 的向量，如果有句子 B 的话，句子 B 中的每个词也会添加一个表示当前句子为句子 B 的向量
 
 
-![](../../images/week3/61.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/61.png)
 
 
 除了输入层要尽量做到通用之外，根据不同任务设计不同的输出层也变得尤为重要，BERT 主要针对四类任务考虑和设计了一些非常易于移植的输出层，这四类任务分别是:
@@ -1299,7 +1110,7 @@ BERT 还利用了一系列策略，使得模型更易于训练，比如对于学
 对于 SQuAD 1.1 任务来说，需要在给定段落中找到正确答案所在区间，这段区间通过一个起始符与终止符来进行标记，因此只需__预测输入序列中哪个 token 所在位置是起始符或终止符即可__
 
 
-![](../../images/week3/62.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/62.png)
 
 
 Summary of BERT:
@@ -1638,7 +1449,7 @@ word2vec 和 GloVe 都不需要人工标记的监督数据，只需要语言内�
 - 在输入数据上，CBOW 输入的是一段区间中除去目标词之外的所有其他词的向量加和或平均，__而 fastText 为了利用更多的语序信息，将 bag-of-words 变成了 bag-of-features__，也就是输入 x 不再仅仅是一个词，还可以加上 bigram 或者是 trigram 的信息等等。
 
 
-![](../../images/week3/36.png)
+![](https://raw.githubusercontent.com/karenyyy/Advanced_ML_HSE/master/NLP/images/week3/36.png)
 
 - 在预测目标上，CBOW 预测目标是语境中的一个词，而 __fastText 预测目标是当前这段输入文本的类别__，正因为需要这个文本类别，因此才说 fastText 是一个监督模型。
 
